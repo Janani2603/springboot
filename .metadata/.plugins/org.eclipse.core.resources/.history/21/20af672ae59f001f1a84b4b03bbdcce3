@@ -1,5 +1,0 @@
-package com.ust.msB.repository;
-
-public interface repo {
-
-}

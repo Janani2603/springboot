@@ -1,5 +1,0 @@
-package com.ust.is.repository;
-
-public interface UserCredentialRepository {
-
-}

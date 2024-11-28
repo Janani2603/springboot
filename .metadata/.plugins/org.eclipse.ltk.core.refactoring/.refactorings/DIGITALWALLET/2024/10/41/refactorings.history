@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.example.demo.service.WlletService&apos; to &apos;WalletService&apos;&#x0D;&#x0A;- Original project: &apos;DIGITALWALLET&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.service.WlletService&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.demo.service.WalletService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WlletService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.service{WlletService.java[WlletService" matchStrategy="1" name="WalletService" qualified="false" references="true" similarDeclarations="true" stamp="1728709660161" textual="false" version="1.0"/>
-</session>

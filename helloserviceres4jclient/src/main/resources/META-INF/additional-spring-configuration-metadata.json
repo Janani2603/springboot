@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "eureka.client.instance-id",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.instance-id'"
+  },
+  {
+    "name": "management.endpoints.web.exposure.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.include'"
+  },
+  {
+    "name": "management.endpoint.health.show-details",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.health.show-details'"
+  }
+]}

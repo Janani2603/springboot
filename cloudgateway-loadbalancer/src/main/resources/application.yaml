@@ -1,0 +1,45 @@
+server:
+  port: 8072
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoint:
+   health:
+     show-details: always
+  endpoints:
+   web:
+    exposure:
+     include: health
+spring:
+  application:
+    name: spring-cloud-gateway-app
+
+  cloud:
+    gateway:
+     discovery:
+      locator:
+       enabled: true
+     routes:
+        - id: lbservice-route
+          uri: lb://LBSERVICE  #it will use isntance id to redirect not port numbers
+          predicates:
+            - Path=/rest/service/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: helloServiceCircuitBreaker
+                fallbackUri: forward:/myfallback
+
+    
+       # - id: factorialservice-route
+        #  uri: http://localhost:8073
+         # predicates:
+          #  - Path=/rest/factorial/**
+            
+        #- id: productapi-client
+         # uri: http://localhost:8092
+          #predicates:
+           # - Path=/client/api1.0/**
+
+

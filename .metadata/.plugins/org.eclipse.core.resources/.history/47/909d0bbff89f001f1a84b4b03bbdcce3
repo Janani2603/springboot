@@ -1,0 +1,5 @@
+package com.ust.gateway.validator;
+
+public class RouteValidator {
+
+}

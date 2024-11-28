@@ -1,0 +1,5 @@
+package com.ust.is.config;
+
+public class CustomUserDetails {
+
+}

@@ -1,0 +1,5 @@
+package com.ust.is.entity;
+
+public class UserCredentials {
+
+}

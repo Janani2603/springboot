@@ -1,0 +1,5 @@
+package com.ust.gateway.jwtFilter;
+
+public class AuthenticationFilter {
+
+}
